@@ -1,8 +1,3 @@
-# This is a demo repository
+# This is first git
 
-Type following commands to get this repository
-`
-git init
-git pull https://github.com/kulsagar/Mastering_CI_Chennai.git
-`
 
