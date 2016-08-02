@@ -1,0 +1,60 @@
+D:\DemoCode>git pull https://github.com/balajirengasamy/Mastering_CI_Chennai.git
+
+From https://github.com/balajirengasamy/Mastering_CI_Chennai
+ * branch            HEAD       -> FETCH_HEAD
+Already up-to-date.
+
+D:\DemoCode>git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   Readme.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+D:\DemoCode>git add Readme.md
+
+D:\DemoCode>git commit -m "First commit"
+[master 3ac5dc4] First commit
+ Committer: ADMIN <ADMIN>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 6 deletions(-)
+
+D:\DemoCode>git push -set-upstream https://github.com/balajirengasamy/Mastering_
+CI_Chennai.git
+error: did you mean `--set-upstream` (with two dashes ?)
+
+D:\DemoCode>git push -set-upstream https://github.com/balajirengasamy/Mastering_
+CI_Chennai.git master
+error: did you mean `--set-upstream` (with two dashes ?)
+
+D:\DemoCode>git push -set-upstream https://github.com/balajirengasamy/Mastering_
+CI_Chennai.git master
+error: did you mean `--set-upstream` (with two dashes ?)
+
+D:\DemoCode>git push --set-upstream https://github.com/balajirengasamy/Mastering
+_CI_Chennai.git master
+Username for 'https://github.com': balajirengasamy
+Password for 'https://balajirengasamy@github.com':
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 282 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/balajirengasamy/Mastering_CI_Chennai.git
+   0934451..3ac5dc4  master -> master
+Branch master set up to track remote branch master from https://github.com/balaj
+irengasamy/Mastering_CI_Chennai.git.
