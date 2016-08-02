@@ -1,3 +1,4 @@
+D:\DemoCode>git init
 D:\DemoCode>git pull https://github.com/balajirengasamy/Mastering_CI_Chennai.git
 
 From https://github.com/balajirengasamy/Mastering_CI_Chennai
@@ -32,18 +33,6 @@ After doing this, you may fix the identity used for this commit with:
     git commit --amend --reset-author
 
  1 file changed, 1 insertion(+), 6 deletions(-)
-
-D:\DemoCode>git push -set-upstream https://github.com/balajirengasamy/Mastering_
-CI_Chennai.git
-error: did you mean `--set-upstream` (with two dashes ?)
-
-D:\DemoCode>git push -set-upstream https://github.com/balajirengasamy/Mastering_
-CI_Chennai.git master
-error: did you mean `--set-upstream` (with two dashes ?)
-
-D:\DemoCode>git push -set-upstream https://github.com/balajirengasamy/Mastering_
-CI_Chennai.git master
-error: did you mean `--set-upstream` (with two dashes ?)
 
 D:\DemoCode>git push --set-upstream https://github.com/balajirengasamy/Mastering
 _CI_Chennai.git master
